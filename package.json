@@ -5,10 +5,12 @@
   "private": true, 
   "main": "server.js",
   "scripts": {
-    "server": "node server.js",
-    "test": "scripts/test"
+    "server": "node server.js"
   },
   "license": "Apache License, Version 2.0",
+  "engines": {
+    "node": "12.22.11"
+  },
   "dependencies": {
     "express": "^4.18.1"
   }
