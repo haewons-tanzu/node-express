@@ -5,7 +5,8 @@
   "private": true, 
   "main": "server.js",
   "scripts": {
-    "server": "node server.js"
+    "server": "node server.js",
+    "test": "scripts/test"
   },
   "license": "Apache License, Version 2.0",
   "dependencies": {
